@@ -317,8 +317,9 @@ class _LoginState extends State<Login> {
       _isLoading = true; // Inicia el indicador de progreso
     });
 
-    final Uri url = Uri.parse(
-        'https://devempowerapp.gatewayit.co/empowerapp/api/auth/login');
+    final Uri url = Uri.parse('localhost:3000/api/auth/login'
+        // 'https://devempowerapp.gatewayit.co/empowerapp/api/auth/login'
+        );
     final response = await http.post(
       url,
       headers: {'Content-Type': 'application/json'},

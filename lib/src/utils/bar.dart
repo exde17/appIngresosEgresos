@@ -88,7 +88,7 @@ class CustomAppBar {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
-            'HumanSave',
+            'Movimientos del Mes',
             style: TextStyle(
               fontSize: MediaQuery.of(context).size.width * 0.07,
               fontWeight: FontWeight.bold,

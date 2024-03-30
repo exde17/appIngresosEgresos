@@ -12,9 +12,9 @@ class Routes {
   static const String registro = '/registro';
   static const String login = '/login';
   // static const String rutasAccesibles = '/rutasAccesibles';
-  static const String queHacer = '/queHacer';
-  static const String ubica = '/ubica';
-  static const String leve = '/leve';
+  // static const String queHacer = '/queHacer';
+  // static const String ubica = '/ubica';
+  // static const String leve = '/leve';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
